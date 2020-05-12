@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(bg2.jpeg) no-repeat 50% 50%;
+  display: inline-block;
+  top: 0;
+  background-size: cover;
+}
+
+.intro .inner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 15%;
+  margin-bottom: auto;
+}
+
+.content p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-weight: 100;
+}
+
+.btnRegister {
+  border-radius: 9px;
+  font-family: "Lato", sans-serif;
+  color: #afeeee;
+  font-size: 120%;
+  padding: 7px 15px;
+  border: solid #afeeee 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btnRegister:hover {
+  color: #fff;
+  border: solid #fff 2px;
+}
+
+.btnLogin {
+  border-radius: 9px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 120%;
+  padding: 7px 15px;
+  border: solid #fff 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

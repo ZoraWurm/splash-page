@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  background: url(bg2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.top {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.top .btn {
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.btnRegister {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: 0.4s;
+  padding: 7px 15px;
+  border: solid white;
+}
+
+.btnLogin {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: 0.4s;
+  padding: 7px 15px;
+}
+
+.btnRegister:hover {
+  border-radius: 9px;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  text-align: left;
+  margin-left: 10%;
+  transition: all 1s;
+  display: inline-block;
+  letter-spacing: 8px;
+}
+
+.content h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.content p {
+  font-size: 20px;
+}
